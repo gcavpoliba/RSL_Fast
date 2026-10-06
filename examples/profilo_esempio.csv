@@ -1,0 +1,6 @@
+name,thickness,vs,unit_weight,curve,pi,ocr,k0,gamma_ref_pct,d_min_pct,damping_pct
+sabbia lenta,4.0,150.0,17.5,darendeli,0.0,1.0,0.5,0.05,1.0,2.0
+sabbia,6.0,200.0,18.0,darendeli,0.0,1.0,0.5,0.05,1.0,2.0
+argilla,10.0,250.0,18.5,darendeli,30.0,1.0,0.5,0.05,1.0,2.0
+argilla rigida,15.0,350.0,19.0,darendeli,30.0,1.0,0.5,0.05,1.0,2.0
+bedrock,0.0,800.0,22.0,linear,0,1,0.5,0.05,1.0,1.0
