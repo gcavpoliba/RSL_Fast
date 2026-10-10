@@ -1,0 +1,32 @@
+{
+  "name": "RSL Fast — Risposta Sismica 1D",
+  "short_name": "RSL Fast",
+  "description": "Analisi di risposta sismica locale 1D con metodo lineare equivalente (EERA/STRATA)",
+  "lang": "it",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#0D0D0F",
+  "theme_color": "#0D0D0F",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
