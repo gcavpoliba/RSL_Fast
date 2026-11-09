@@ -327,7 +327,7 @@ class App(tk.Tk):
 
     def __init__(self):
         super().__init__()
-        self.title("EQL Site Response - analisi lineare equivalente 1D")
+        self.title("RSL FAST - analisi lineare equivalente 1D - Gianluca Cavallo, Phd., 2026")
         self.geometry("1280x800")
         self.minsize(1000, 650)
 
@@ -416,10 +416,10 @@ class App(tk.Tk):
     def _about(self):
         messagebox.showinfo(
             "Informazioni",
-            f"EQL Site Response {__version__}\n\n"
+            f"RSL Fast {__version__}\n\n"
             "Analisi lineare equivalente 1D (onde SH) nel dominio della frequenza,\n"
             "sullo schema di EERA (Bardet et al., 2000) e STRATA (Kottke & Rathje, 2008).\n"
-            "Curve di Darendeli (2001).")
+            "Curve di Darendeli (2001). Gianluca Cavallo, Phd. 2026")
 
     def _quit(self):
         if self._running and not messagebox.askyesno("Analisi in corso", "Uscire comunque?"):
