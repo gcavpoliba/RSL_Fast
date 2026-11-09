@@ -51,15 +51,7 @@ I progetti (profilo + moto + impostazioni) si salvano e si riaprono dal menu **F
 ![Risultati](docs/4_risultati_accelerogrammi.png)
 
 ## Within e outcrop
-
-Gli strati sono numerati da 1 (superficie) a N (semispazio).
-
-- **Within** allo strato m: moto alla sommita' dello strato m, all'interno della colonna
-  (onda ascendente + discendente, `A_m + B_m`).
-- **Outcrop** allo strato m: moto che si avrebbe alla sommita' dello strato m se fosse una
-  superficie libera (`2 A_m`). Una registrazione su roccia affiorante si assegna come
-  **outcrop sul semispazio (strato N)**.
-- Nello strato 1 within e outcrop coincidono.
+Vedere i file di validazione nel folder Validation test
 
 ## Metodo
 
@@ -94,11 +86,7 @@ Vedi `examples/esempio_script.py`.
 
 ## Validazione
 
-`python tests/test_core.py` (o `pytest tests`) verifica, fra l'altro:
-strato su base rigida contro la soluzione analitica (errore ~1e-15, picco a Vs/4H);
-strato con stessa impedenza del semispazio (outcrop -> superficie = 1); coincidenza di within e
-outcrop in superficie; reciprocita' dei punti di input/output; stabilita' fino a 500 Hz con 30
-strati; l'outcrop ricalcolato sul bedrock coincide con l'input; salvataggio/apertura progetto.
+Vedere folder /Validation Test, confronto con codice EERA
 
 ## Limiti e avvertenze
 
@@ -123,3 +111,6 @@ examples/              progetto, profilo e moto di esempio, script d'uso
 tests/test_core.py     test di validazione
 docs/                  schermate
 ```
+
+## Liberatoria
+Il software come tale, benchè funzionante, viene usato sotto l'esclusiva responsabilità dell'utilizzatore. L'autore si svincola da ogni responsabilità ed obbligo.
