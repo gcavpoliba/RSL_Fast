@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Avvio dell'interfaccia grafica:  python run_gui.py"""
+"""Avvio dell'interfaccia grafica:  python run_gui.py (Autore: Gianluca Cavallo, Phd., 2026)"""
 import sys
 
 try:
